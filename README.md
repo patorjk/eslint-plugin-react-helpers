@@ -34,7 +34,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "react-helpers/rule-name": 2
+        "react-helpers/prefer-use-state-lazy-initialization": 2
     }
 }
 ```
@@ -42,7 +42,12 @@ Then configure the rules you want to use under the rules section.
 ## Rules
 
 <!-- begin auto-generated rules list -->
-TODO: Run eslint-doc-generator to generate the rules list.
+
+| Name                                                                                       | Description                                                                        |
+| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| [no-named-useeffect-functions](docs/rules/no-named-useeffect-functions.md)                 | Disallows named function in useEffect hooks                                        |
+| [prefer-use-state-lazy-initialization](docs/rules/prefer-use-state-lazy-initialization.md) | Detects function calls in useState and suggests using lazy initialization instead. |
+
 <!-- end auto-generated rules list -->
 
 

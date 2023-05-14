@@ -1,4 +1,6 @@
-# Disallows named function in useEffect hooks (`no-named-useeffect-functions`)
+# Disallows named function in useEffect hooks (`react-helpers/no-named-useeffect-functions`)
+
+<!-- end auto-generated rule header -->
 
 Please describe the origin of the rule here.
 

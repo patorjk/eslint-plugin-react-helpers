@@ -35,7 +35,7 @@ ruleTester.run("no-named-useeffect-functions", rule, {
   invalid: [
     {
       code: "useEffect(function myUseEffect() {})",
-      errors: [{ message: "Please do not name useEffect input functions.", type: "CallExpression" }],
+      errors: [{ message: rule.meta.messages.namedUseEffect, type: "CallExpression" }],
     },
     {
       code: `
@@ -46,7 +46,7 @@ ruleTester.run("no-named-useeffect-functions", rule, {
           [value]
         ); 
       `,
-      errors: [{ message: "Please do not name useEffect input functions.", type: "CallExpression" }],
+      errors: [{ message: rule.meta.messages.namedUseEffect, type: "CallExpression" }],
     },
   ],
 });
